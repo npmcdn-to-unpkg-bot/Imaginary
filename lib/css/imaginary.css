@@ -1,0 +1,63 @@
+body { 
+  font-family: sans-serif;
+  padding: 0;
+  background: #101010;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+* { box-sizing: border-box; }
+
+/* force scrollbar */
+html { overflow-y: scroll; }
+
+body { font-family: sans-serif; }
+
+.nav-text-imaginary {
+  font-family: 'Indie Flower', cursive;
+}
+
+/* ---- grid ---- */
+
+.grid {
+  background: #101010;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 10%;
+}
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+
+#modalImage {
+  padding: 10px;
+  background: #FFFFFF;
+  max-width: 70%;
+  max-height: 50%;
+
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 15%;
+}
